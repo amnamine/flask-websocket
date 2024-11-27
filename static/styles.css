@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input,
+button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#chatBox {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    height: 200px;
+    overflow-y: scroll;
+    background: #f9f9f9;
+}
+
+#chatBox div {
+    margin-bottom: 10px;
+}
